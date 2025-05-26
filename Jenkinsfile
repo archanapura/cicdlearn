@@ -34,7 +34,8 @@ pipeline {
                 script{
                 def file = params.filename
                 echo 'Running automated tests...'
-                sh 'mvn test -D file=testng.xml'
+                //sh 'mvn test -D file=testng.xml'
+                sh 'mvn test -D file=${file}'
                 }
             }
         }
