@@ -64,10 +64,10 @@
                 <configuration>
                 <rerunFailingTestsCount>2</rerunFailingTestsCount> 
                 <systemPropertyVariables>
-                <browser.Name>${browser}</browser.Name>
+                <browser.Name>Chrome</browser.Name>
                 </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>${file}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
