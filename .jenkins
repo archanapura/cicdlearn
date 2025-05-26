@@ -18,7 +18,7 @@ pipeline {
             steps {
               
                 echo 'Checking out source code...'
-                git branch: 'master', url: 'https://github.com/archanapura/cicdlearn.git'
+                git branch: 'new', url: 'https://github.com/archanapura/cicdlearn.git'
             }
         }
 
