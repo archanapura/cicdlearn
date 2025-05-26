@@ -24,6 +24,7 @@ public class SearchPage {
 	public void searchForName() throws InterruptedException 
 	{
 		   element = searchBox;
+		   System.out.println("Success")
 	       element.sendKeys("Bubu");
 	       element.sendKeys(Keys.ENTER);
 	       Thread.sleep(200);

@@ -64,7 +64,7 @@
                 <configuration>
                 <rerunFailingTestsCount>2</rerunFailingTestsCount> 
                 <systemPropertyVariables>
-                <browser.Name>Chrome</browser.Name>
+                <browser.Name>${browser}</browser.Name>
                 </systemPropertyVariables>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
